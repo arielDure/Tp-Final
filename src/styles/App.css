@@ -1,0 +1,44 @@
+.app-root {
+    display: flex;
+    height: 100vh;
+    gap: 12px;
+    padding: 12px;
+}
+
+
+.main-panel {
+    flex: 1;
+    background: var(--panel);
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    overflow: hidden;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+
+.empty-view {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: var(--muted);
+    font-size: 18px;
+}
+
+
+/* Responsive: on small screens, show panels stacked and sidebar collapsible */
+@media (max-width: 720px) {
+    .app-root {
+        padding: 6px;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .main-panel {
+        width: 100%;
+    }
+}

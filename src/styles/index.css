@@ -1,0 +1,20 @@
+:root {
+  --bg: #f5f7fb;
+  --panel: #ffffff;
+  --accent: #4f46e5;
+  --muted: #6b7280;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+html,
+#root {
+  height: 100%;
+  margin: 0;
+  font-family: Inter, system-ui, Arial;
+  background: var(--bg);
+}

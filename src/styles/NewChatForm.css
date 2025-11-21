@@ -1,0 +1,19 @@
+.new-chat-form {
+    display: flex;
+    gap: 8px
+}
+
+.new-chat-form input {
+    flex: 1;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #e5e7eb
+}
+
+.new-chat-form button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 6px;
+    background: var(--accent);
+    color: white
+}
